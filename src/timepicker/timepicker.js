@@ -261,7 +261,7 @@ angular.module('ui.bootstrap.timepicker', [])
   }
   
   $scope.showSpinners = angular.isDefined($attrs.showSpinners) ? $scope.$parent.$eval($attrs.showSpinners) : timepickerConfig.showSpinners;
-  
+
   $scope.incrementHours = function() {
     addMinutes( hourStep * 60 );
   };
